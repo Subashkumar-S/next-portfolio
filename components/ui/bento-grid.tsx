@@ -3,7 +3,7 @@ import { useState } from "react";
 import { IoCopyOutline } from "react-icons/io5";
 import Lottie from "react-lottie";
 import { cn } from "@/utils/cn";
-import { Button } from "./Button";
+import { Button } from "./MagicButton";
 import { BackgroundGradientAnimation } from "./gradient-bg";
 import GridGlobe from "./GridGlobe";
 import animationData from "@/data/confetti.json";
@@ -104,7 +104,6 @@ export const BentoGridItem = ({
           )}
         </div>
         {id === 6 && (
-          // add background animation , remove the p tag
           <BackgroundGradientAnimation>
             <div className="absolute z-50 inset-0 flex items-center justify-center text-white font-bold px-4 pointer-events-none text-3xl text-center md:text-4xl lg:text-7xl"></div>
           </BackgroundGradientAnimation>
@@ -121,7 +120,6 @@ export const BentoGridItem = ({
           >
             {title}
           </div>
-          {/* change the order of the title and des, font-extralight, remove text-xs text-neutral-600 dark:text-neutral-300 , change the text-color */}
           <div className="font-sans font-extralight md:max-w-32 md:text-xs lg:text-base text-sm text-[#C1C2D3] z-10">
             {description}
           </div>
@@ -159,12 +157,8 @@ export const BentoGridItem = ({
           )}
           {id === 6 && (
             <div className="mt-5 relative">
-              {/* button border magic from tailwind css buttons  */}
-              {/* add rounded-md h-8 md:h-8, remove rounded-full */}
-              {/* remove focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 */}
-              {/* add handleCopy() for the copy the text */}
               <div
-                className={`absolute -bottom-5 right-0 ${copied ? "block" : "block"
+                className={`absolute -bottom-5 right-0 rounded-md h-8 md:h-8 ${copied ? "block" : "block"
                   }`}
               >
                 <img src="/confetti.gif" alt="confetti" />

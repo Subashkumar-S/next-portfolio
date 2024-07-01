@@ -1,7 +1,6 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Experience", link: "#experience" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -82,7 +81,7 @@ export const workExperience = [
     id: 2,
     title: "Software Engineer Intern",
     company: "Atatus",
-    desc: "Assisted in the development of a web-based platform using Node.js.",
+    desc: "Assisted in the development of a web-based monitoring tool using Node.js.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
@@ -91,34 +90,57 @@ export const workExperience = [
 export const projects = [
   {
     id: 1,
-    title: "Space Tourism Website",
-    des: "Explore celestial wonders with our Space Tourism website. Embark on extraordinary journeys to Mars, Europa, and beyond, guided by expert crew members well-versed in interplanetary travel. Our cutting-edge technology ensures safe and awe-inspiring adventures, making space tourism a reality like never before. Discover the universe's beauty with us.",
-    img: "/space-tourism.webp",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    title: "Entertainment Web App",
+    des: "An advanced entertainment web application built with the MERN stack, featuring dynamic data integration from the TMDB API, user authentication, and responsive design",
+    img: "https://res.cloudinary.com/dz209s6jk/image/upload/v1646924199/Challenges/ceedr4akadxr0yqn142q.jpg",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
+    link: "https://www.frontendmentor.io/challenges/entertainment-web-app-J-UhgAW1X",
+    github: "https://github.com/Subashkumar-S/Entertainment-web-app",
   },
   {
     id: 2,
-    title: "Todo App",
-    des: "Users can view the app layout optimized for their device's screen size and see hover states for interactive elements. They can add new todos, mark them as complete, and delete them. Filtering options allow users to view all, active, or completed todos, and they can clear all completed todos. Additionally, users can toggle between light and dark mode for different visual preferences.",
-    img: "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_700/Challenges/llcq9eiv3ney5tkxgdtu.jpg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    title: "Space Tourism Website",
+    des: "Discover the universe with our Space Tourism website. Journey to Mars, Europa, and beyond with expert guides and cutting-edge technology for safe and awe-inspiring adventures.",
+    img: "/space-tourism.webp",
+    iconLists: ["/re.svg", "/tail.svg"],
+    link: "https://space-tourism-website-f037b.web.app",
+    github: "https://github.com/Subashkumar-S/space-tourism-website",
   },
   {
     id: 3,
-    title: "Rock Paper Scissors Game",
-    des: "Users can play Rock, Paper, Scissors against the computer with an interface optimized for different screen sizes. Interactive elements have hover and focus states. The score state persists even after refreshing the browser. Additionally, users can play an extended version, Rock, Paper, Scissors, Lizard, Spock, against the computer.",
-    img: "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_700/Challenges/fnzuxyyl1wwyscqgaiyc.jpg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    title: "Todo App",
+    des: "Explore our app with an optimized layout for your device, interactive hover states, and seamless todo management. Add, complete, or delete todos, filter by all, active, or completed, and clear completed tasks.",
+    img: "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_700/Challenges/llcq9eiv3ney5tkxgdtu.jpg",
+    iconLists: ["/re.svg", "/sass.png"],
+    link: "https://todo-app-26af6.web.app",
+    github: "https://github.com/Subashkumar-S/ToDo-App",
   },
   {
     id: 4,
-    title: "HooBank Application",
-    des: "Hoobank is a sleek and user-friendly landing page for a modern banking service. With its intuitive design and informative layout, users can easily navigate through various sections, including potential clients and details about offered services.",
-    img: "/HooBank.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    title: "Rock Paper Scissors Game",
+    des: "Users can enjoy an optimized app layout for their device, add, complete, and delete todos, filter by all, active, or completed todos, and clear completed tasks. The app also features interactive hover states.",
+    img: "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_700/Challenges/fnzuxyyl1wwyscqgaiyc.jpg",
+    iconLists: ["/re.svg", "/sass.png"],
+    link: "https://rock-paper-scissors-81353.web.app/",
+    github: "https://github.com/Subashkumar-S/Rock-Paper-Scissors",
+  },
+  
+];
+
+export const socialMedia = [
+  {
+    id: 1,
+    img: "/git.svg",
+    link: "https://github.com/Subashkumar-S",
+  },
+  {
+    id: 2,
+    img: "/twit.svg",
+    link: "https://x.com/Subash2232",
+  },
+  {
+    id: 3,
+    img: "/link.svg",
+    link: "https://www.linkedin.com/in/subashkumar-s/",
   },
 ];

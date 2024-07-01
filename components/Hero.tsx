@@ -1,7 +1,7 @@
 import React from "react";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/text-generate-effect";
-import { Button } from "./ui/Button";
+import { Button } from "./ui/MagicButton";
 import { FaLocationArrow } from "react-icons/fa";
 
 export function Hero() {
@@ -35,7 +35,7 @@ export function Hero() {
 
         <a href="#projects" className="text-center my-4">
           <Button 
-            title="Show my work"
+            title="See my work"
             icon={<FaLocationArrow />}
             position="right"
            />
