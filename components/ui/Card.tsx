@@ -3,6 +3,7 @@
 import Image from "next/image";
 import React from "react";
 import { CardBody, CardContainer, CardItem } from "./3d-card";
+import { FaLocationArrow } from "react-icons/fa6";
 
 interface CardProps {
   title: string;
@@ -25,7 +26,7 @@ export function Card({
       >
         <CardItem
           translateZ="50"
-          className="text-3xl font-bold text-neutral-600 dark:text-purple"
+          className="text-3xl font-bold text-neutral-600 dark:text-neutral-300"
         >
           {title}
         </CardItem>
@@ -69,9 +70,10 @@ export function Card({
             translateZ={20}
             translateX={-40}
             as="button"
-            className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
+            className="px-4 py-2 rounded-xl font-normal text-xl dark:text-purple flex gap-2 items-center"
           >
             <a href={link}>Check live site</a>
+            <FaLocationArrow />
           </CardItem>
           <CardItem
             translateZ={20}

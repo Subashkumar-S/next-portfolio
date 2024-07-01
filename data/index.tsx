@@ -49,10 +49,10 @@ export const gridItems = [
   {
     id: 5,
     title: "Currently building a Blogging Platform",
-    description: "Blog",
+    description: "Developing a dynamic blogging application using Next.js, featuring responsive design, interactive elements, and a rich text editor. ",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
-    titleClassName: "justify-center md:justify-start lg:justify-center",
+    titleClassName: "justify-center md:justify-start lg:justify-center ",
     img: "/b5.svg",
     spareImg: "/grid.svg",
   },
